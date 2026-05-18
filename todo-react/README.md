@@ -1,6 +1,9 @@
 # TaskHive 
 A fully functional and responsive Todo List web app built with React, Tailwind CSS and DaisyUI. Supports complete CRUD operations, task filtering and Light/Dark mode toggle.
 
+## Live Demo
+https://todo-app-react-cyan-three.vercel.app/
+
 ## Screenshots
 (./src/assets/todo-screenshot-01.png)
 (./src/assets/todo-screenshot-02.png)
