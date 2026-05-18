@@ -1,16 +1,55 @@
-# React + Vite
+# TaskHive 
+A fully functional and responsive Todo List web app built with React, Tailwind CSS and DaisyUI. Supports complete CRUD operations, task filtering and Light/Dark mode toggle.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Screenshots
+(./src/assets/todo-screenshot-01.png)
+(./src/assets/todo-screenshot-02.png)
 
-Currently, two official plugins are available:
+## Features
+- Add new todos
+- Edit existing todos
+- Delete todos
+- Mark todos as completed with strikethrough
+- Filter todos by **All / Active / Completed**
+- Light / Dark mode toggle
+- Prevents adding empty todos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+| Technology | Usage |
+|------------|-------|
+| React | Frontend framework |
+| Vite | Build tool |
+| Tailwind CSS | Styling |
+| DaisyUI | UI Components |
+| React Hooks | State management(useState) |
+| Vercel | Deployment |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+react-todo-app/
+├── src/
+│   ├── assets/
+│   │   └── todo-icon.jpg
+│   ├── Navbar.jsx
+│   ├── Todosec.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── public/
+├── index.html
+├── vite.config.js
+└── package.json
+
+## Concepts Used
+- React Functional Components
+- React Hooks (`useState`)
+- Props drilling (mode, toggle)
+- Array methods (`filter`, `map`)
+- Conditional rendering
+- Controlled inputs (`value`, `checked`)
+- Light/Dark theming via props
+
+## License
+This project is open source and available under the MIT License.
